@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сходим</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Пойдем Вместе!</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="#">Места</a></li>
+                    <li><a href="#">События</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<body>
+    <div class="background">
+        <div class="booking-form">
+            <h2>Концерт группы Moldanazar Забронировать</h2>
+            <form action="index.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+ 
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <button type="submit">Забронировать</button>
+            </form>
+        </div>
+    </div>
+    <style>
+        
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body,html{
+    height: 500px;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+}
+.background{
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.booking-form{
+    background-color: rgba(255,255,255,0.7);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 80%;
+    margin: 0 auto;
+}
+.booking-form h2{
+    text-align: center;
+}
+.booking-form form{
+    display: flex;
+    flex-direction: column;
+}
+.booking-form input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.booking-form button{
+    margin-top:10px;
+    padding: 10px;
+    background-color: #ff3c00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.booking-form button:hover{
+    background-color: #e93701;
+}
+    </style>
+</body>
+
+
+</html>
